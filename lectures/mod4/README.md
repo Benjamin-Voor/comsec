@@ -15,7 +15,7 @@ What can you do in an information system (IS)?
 
 🖊️ Practice
 ---
-- Computer security is maily about access control
+- Computer security is mainly about access control
 - Explore [TABLE D-1: MAPPING ACCESS CONTROL REQUIREMENTS TO CONTROLS](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf) in NIST SP 800-171 for
   - Basic AC security requirements
   - Derived AC security requirements
