@@ -389,7 +389,7 @@ Construct the access control models with RBAC and ABAC.
 - ABAC
   - $canAccess(u,m,e) ⟵$
   - $`(Age(u)≥17 ∩ Rating(m)∈ \{R, PG-13, G\}) ∪`$
-  - $`(Age(u)≥13 ∩ (Age(u)<17 ∩ Rating(m)∈ \{PG-13, G\}) ∪`$
+  - $`(Age(u)≥13 ∩ Age(u)<17 ∩ Rating(m)∈ \{PG-13, G\}) ∪`$
   - $`(Age(u)<13 ∩ Rating(m)∈ \{G\})`$
 
 
