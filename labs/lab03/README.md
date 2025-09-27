@@ -168,7 +168,7 @@ Alternatively, use PowerShell to automate user creation as follows:
 
 ```powershell
 # Create Provost
-New-ADUser -Name "Provost" -GivenName "University" -Surname "Provost" -UserPrincipalName "provost@university.local" -Path "OU=Provost,OU=University,DC=university,DC=local" -AccountPassword (ConvertTo-SecureString "Password123!" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Provost" -GivenName "University" -Surname "Provost" -UserPrincipalName "provost@university.local" -Path "OU=University,DC=university,DC=local" -AccountPassword (ConvertTo-SecureString "Password123!" -AsPlainText -Force) -Enabled $true
 
 # Department Chairs
 $departments = @("ComputerScience", "Mathematics", "Engineering")
