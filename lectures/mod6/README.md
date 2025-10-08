@@ -206,7 +206,7 @@ Viruses Classification
     - uses a remote file transfer service to copy itself from one system to the other
   - Remote login capability
     - logs onto a remote system then copies itself from one system to the other
-- exhibit similar self-replication and propagation behavior to biological viruses as[epidemic model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology)
+- exhibit similar self-replication and propagation behavior to biological viruses as [epidemic model](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology)
 
 
 How worms find their targets?
